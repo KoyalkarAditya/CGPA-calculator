@@ -1,2 +1,3 @@
-** CGPA Calculator app **
+** SGPA Calculator app ** <br><br>
+
 Steps:
