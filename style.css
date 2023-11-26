@@ -13,11 +13,10 @@ body {
 }
 h1 {
   font-size: 40px;
+  color: white;
 }
 .header {
-  height: 70px;
-  display: flex;
-  align-items: center;
+  background-color: rgb(10, 9, 9);
 }
 .header-section {
   display: flex;
@@ -33,9 +32,82 @@ h1 {
 nav a {
   text-decoration: none;
   font-size: large;
-  color: rgb(126, 112, 136);
+  color: rgb(184, 184, 184);
   font-weight: 700;
 }
 nav a:hover {
-  color: rgb(0, 37, 223);
+  color: rgb(234, 0, 0);
+}
+main {
+  margin-top: 30px;
+}
+.input-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+.container {
+  margin-top: 0;
+}
+.cgpa-calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.outer-container {
+  margin-top: 20px;
+}
+.subject-no {
+  text-align: left;
+  margin-left: 40px;
+}
+.grade-credits {
+  display: flex;
+}
+.subject-no {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: cursive;
+}
+input {
+  margin-top: 0%;
+  padding: 10px 50px;
+  font-size: large;
+}
+.calculate-buttons {
+  margin-top: 0;
+}
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+}
+button:hover {
+  background-color: rgb(171, 171, 71);
+  color: black;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contributers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  width: 50px;
+}
+.our-names {
+  font-weight: 600;
+  margin: 0;
 }
