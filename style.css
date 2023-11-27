@@ -79,6 +79,7 @@ input {
   margin-top: 0%;
   padding: 10px 50px;
   font-size: large;
+  cursor: pointer;
 }
 .calculate-buttons {
   margin-top: 0;
