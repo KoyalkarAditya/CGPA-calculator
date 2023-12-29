@@ -23,32 +23,36 @@
         <div class="content shadow">
           <div class="outer-container">
             <div class="container">
-              <div class="subject-no">Subject: 1</div>
-              <div class="grade-credits">
-                <input
-                  type="number"
-                  id="grade"
-                  placeholder="Enter grade points"
-                />
-                <input
-                  type="number"
-                  id="credits"
-                  placeholder="Enter credit points"
-                />
+              <div>
+                <div class="subject-no">Subject: 1</div>
+                <div class="grade-credits">
+                  <input
+                    class="grade"
+                    type="number"
+                    id="grade"
+                    placeholder="Enter grade points"
+                  />
+                  <input
+                    class="credits"
+                    type="number"
+                    id="credits"
+                    placeholder="Enter credit points"
+                  />
+                </div>
               </div>
             </div>
           </div>
           <div class="calculate-buttons">
             <button class="addSubject">Add Subject</button>
-            <button>Calculate SGPA</button>
+            <button class="calculate">Calculate SGPA</button>
             <button class="reset">Reset</button>
           </div>
         </div>
       </div>
+      <div class="output"></div>
     </main>
     <footer>
       <div class="contributers">
-        <p class="names">Developed by<p class="our-names">Aditya and Samara</p></p>
         <a href="https://github.com/KoyalkarAditya/SGPA-calculator">
           <svg
             xmlns="http://www.w3.org/2000/svg"
